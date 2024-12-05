@@ -1,0 +1,75 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container for the form */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+.form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Form labels */
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Form inputs */
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Form buttons */
+.form-container input[type="submit"],
+.form-container a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form-container input[type="submit"]:hover,
+.form-container a.button:hover {
+    background-color: #218838;
+}
+
+/* Cancel button */
+.form-container .cancel-button {
+    background-color: #dc3545;
+}
+
+.form-container .cancel-button:hover {
+    background-color: #c82333;
+}
