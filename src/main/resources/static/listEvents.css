@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 800px;
+  margin: auto;
+}
+
+.centerDiv {
+  padding: 20px;
+  box-shadow: grey;
+}
+/*main {*/
+/*  background-color: #fff;*/
+/*  padding: 20px;*/
+/*  border-radius: 8px;*/
+/*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+/*}*/
+.searchDiv, .listDiv{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hrview{
+  border: 0;
+  height: 3px;
+  background: linear-gradient(to right, #ddd, #aaa, #ddd);
+  box-shadow: 0px 1px 2px rgba(2, 160, 231, 0.3);
+  margin: 20px 0;
+}
+.mainTitle {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for radio options */
+.event-option {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.event-option label {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.event-details {
+  margin-left: 10px;
+}
+
+.event-details p {
+  margin: 2px 0;
+}
+
+#ticketInput {
+  width: 80px; /* Make the ticket input smaller */
+}
+
+/*#addEvent{*/
+/*  padding: 10px 20px;          !* Add some padding to make it button-like *!*/
+/*  background-color: #007bff;   !* Set background color (blue in this case) *!*/
+/*  color: white;                !* Text color *!*/
+/*  text-align: center;          !* Center the text *!*/
+/*  text-decoration: none;       !* Remove the underline *!*/
+/*  border-radius: 5px;          !* Optional: rounded corners *!*/
+/*  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); !* Optional: add a shadow *!*/
+/*  font-size: 16px;             !* Set font size *!*/
+/*  transition: background-color 0.3s ease, box-shadow 0.3s ease; !* Smooth transition for hover effect *!*/
+
+/*}*/
